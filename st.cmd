@@ -8,6 +8,9 @@ export ARCHIVER_URL=http://pscaa02.slac.stanford.edu:17665/mgmt/ui/index.html
 export ARCHSTATS_DATABASE=elastic
 export ARCHSTATS_DATABASE_URL=ctl-logsrv01:9200
 
+export ARCHSTATS_INDEX_FORMAT="archiver-appliance-stats"
+export ARCHSTATS_INDEX_SUFFIX=""
+
 export EPICS_CA_AUTO_ADDR_LIST=NO
 export EPICS_CA_ADDR_LIST=172.21.95.255
 
